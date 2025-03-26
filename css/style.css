@@ -250,34 +250,47 @@ body {
   border-bottom: 3px solid var(--black-color);
 }
 
-.footer {
-  margin: 10px 0 30px;
+.opinion {
+  margin: 10px 0 20px;
   padding: 30px 0;
 }
 
-.footer .container {
+.opinion .container {
   background-color: var(--white-color);
   
 }
 
-.footer .title p {
+.opinion .title p {
   font-family: Arial;
   font-size: 18px;
   color: var(--primary-color);
   padding: 30px 0;
   max-width: 500px;
 }
-.footer .row{
+.opinion .row{
   background-color: #F8F3EE;
   padding: 20px 0;
 }
-.footer .card-content{
+.opinion .card-content{
   margin-bottom: 20px;
 }
-.footer .card-content p{
+.opinion .card-content p{
   font-size: 14px;
 }
 
+.footer .container {
+  background-color: var(--white-color);
+  padding: 20px 0;
+  margin-bottom: 20px;
+  
+}
+.footer p{
+  font-family: Arial;
+font-style: italic;
+font-size: 16px;
+color: var(--secoundary-color);
+
+}
 
 
 
@@ -321,13 +334,19 @@ body {
     margin-bottom: 25px;
   }
 
-  .footer .title p {
+  .opinion .title p {
 
     font-size: 16px;
     padding: 0 5px;
   }
-  .footer .card-content{
+  .opinion .card-content{
     border-bottom: 2px solid white;
+  }
+  .footer p{
+ padding:0 10px;
+  font-size: 14px;
+
+  
   }
 }
 
@@ -344,9 +363,10 @@ body {
   .card {
     margin-bottom: 25px;
   }
-  .footer .card-content{
+  .opinion .card-content{
     border-bottom: 2px solid white;
   }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {}
